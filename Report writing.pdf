@@ -1,0 +1,18 @@
+WRITING AN INCIDENT REPORT
+
+One critical skill for a SOC analyst is the ability to write clear reports that facilitate communication, improve processes, and safeguard the organisation.
+
+A report should have
+
+1. Introduction: Start with a brief overview of the incident and its significance.
+2. Description: Clearly outline what happened
+3. Analysis (The most important part): Break down the investigation steps, findings, and tools used.
+3. Recommendations: Actionable steps to mitigate future risks.
+4. Conclusion: Summarise the key takeaways and highlight the importance of preventive measures.
+
+Recently, I worked on a simulated incident involving a phishing attack that led to the detection of a Remote Access Trojan (RAT). 
+
+It involved:
+a. Detecting outbound traffic flagged by the SIEM tool.
+b. Investigating a phishing attack that led to the download of a Remote Access Trojan (RAT).
+c. Mitigating the threat before sensitive data could be exfiltrated.
